@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Github\\Godot_CSharp_Missle_Defense\\C# Missile Defense.csproj": {}
+  },
+  "projects": {
+    "E:\\Github\\Godot_CSharp_Missle_Defense\\C# Missile Defense.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Github\\Godot_CSharp_Missle_Defense\\C# Missile Defense.csproj",
+        "projectName": "C# Missile Defense",
+        "projectPath": "E:\\Github\\Godot_CSharp_Missle_Defense\\C# Missile Defense.csproj",
+        "packagesPath": "C:\\Users\\shelt\\.nuget\\packages\\",
+        "outputPath": "E:\\Github\\Godot_CSharp_Missle_Defense\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\shelt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net47"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net47": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net47": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
