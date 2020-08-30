@@ -57,9 +57,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bullet.cs" />
-    <Compile Include="cannonBarrel.cs" />
+    <Compile Include="Scripts\bullet.cs" />
+    <Compile Include="Scripts\cannonBarrel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\scenes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

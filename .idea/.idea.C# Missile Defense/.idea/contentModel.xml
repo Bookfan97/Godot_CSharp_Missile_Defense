@@ -6,13 +6,16 @@
     <e p="E:\Github\Godot_CSharp_Missle_Defense" t="IncludeRecursive">
       <e p=".mono\temp\bin" t="ExcludeRecursive" />
       <e p=".mono\temp\obj" t="ExcludeRecursive" />
-      <e p="bullet.cs" t="Include" />
       <e p="C# Missile Defense.csproj" t="IncludeRecursive" />
       <e p="C# Missile Defense.sln" t="IncludeFlat" />
-      <e p="cannonBarrel.cs" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+      <e p="Scripts" t="Include">
+        <e p="bullet.cs" t="Include" />
+        <e p="cannonBarrel.cs" t="Include" />
+        <e p="scenes.cs" t="Include" />
       </e>
     </e>
   </component>

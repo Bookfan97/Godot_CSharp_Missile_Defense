@@ -23,6 +23,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor_player" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor_player" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -30,6 +32,12 @@
       <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C# Missile Defense.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/C# Missile Defense.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Explosion.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bullet.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cannon.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cannonBarrel.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +49,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/cannonBarrel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Scripts/scenes.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +57,7 @@
         <option value="$PROJECT_DIR$/Node2D.cs" />
         <option value="$PROJECT_DIR$/bullet.cs" />
         <option value="$PROJECT_DIR$/cannonBarrel.cs" />
+        <option value="$PROJECT_DIR$/Scripts/scenes.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +116,7 @@
       <updated>1598759227833</updated>
       <workItem from="1598759233445" duration="79000" />
       <workItem from="1598814843889" duration="1209000" />
-      <workItem from="1598819796443" duration="874000" />
+      <workItem from="1598819796443" duration="1446000" />
     </task>
     <servers />
   </component>
@@ -133,21 +141,21 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1598820594410">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1598821114665">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598820594410" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1598820594410">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598821114665" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1598821114665">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598820594410" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1598820594410">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598821114665" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1598821114665">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598820594410" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1598820594410">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598821114665" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1598821114665">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598820594410" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598821114665" />
   </component>
 </project>
