@@ -1,0 +1,6 @@
+E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\bin\Debug\CSharpMissleDefense.dll
+E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\bin\Debug\CSharpMissleDefense.pdb
+E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\obj\Debug\CSharpMissleDefense.csprojAssemblyReference.cache
+E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\obj\Debug\CSharpMissleDefense.csproj.CoreCompileInputs.cache
+E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\obj\Debug\CSharpMissleDefense.dll
+E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\obj\Debug\CSharpMissleDefense.pdb

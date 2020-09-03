@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XhcH/NfTdkqxxRc5zPuGHGhc5ayesWeRaHezxlGDmu1QgLoNslSeoNrg7LouZkpAB8OZ+JSjWWuuVUK6AF0+2g==",
+  "success": true,
+  "projectFilePath": "E:\\Github\\Godot_CSharp_Missle_Defense\\CSharpMissleDefense.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shelt\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\shelt\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net47\\1.0.0\\microsoft.netframework.referenceassemblies.net47.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
