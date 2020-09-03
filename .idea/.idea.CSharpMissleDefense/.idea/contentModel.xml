@@ -15,6 +15,7 @@
       <e p="scripts" t="Include">
         <e p="bullet.cs" t="Include" />
         <e p="cannonBarrel.cs" t="Include" />
+        <e p="scenes.cs" t="Include" />
       </e>
     </e>
   </component>

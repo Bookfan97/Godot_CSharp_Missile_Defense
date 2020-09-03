@@ -22,9 +22,15 @@
     <list default="true" id="e20ecb51-83c2-4e62-bfa7-82f49891d4c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpMissleDefense/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpMissleDefense/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpMissleDefense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpMissleDefense/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Debug/CSharpMissleDefense.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/bin/Debug/CSharpMissleDefense.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Debug/CSharpMissleDefense.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/bin/Debug/CSharpMissleDefense.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpMissleDefense.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpMissleDefense.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Game.tscn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +42,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/scripts/cannonBarrel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scripts/scenes.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scripts/bullet.cs" />
         <option value="$PROJECT_DIR$/scripts/cannonBarrel.cs" />
+        <option value="$PROJECT_DIR$/scripts/scenes.cs" />
       </list>
     </option>
   </component>
@@ -51,8 +59,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995845" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008313" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Start and Debug.Player">
     <configuration name="Attach to Player" type="ConnectRemote" factoryName="Mono Remote" show_console_on_std_err="false" show_console_on_std_out="false" port="23685" address="localhost">
@@ -92,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599097193832</updated>
-      <workItem from="1599097196491" duration="1617000" />
+      <workItem from="1599097196491" duration="2048000" />
     </task>
     <servers />
   </component>
@@ -116,21 +132,69 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1234" height="400" key="GridCell.Tab.0.bottom" timestamp="1599098271776">
+    <state width="1234" height="518" key="GridCell.Tab.0.bottom" timestamp="1599099156767">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599098271776" />
-    <state width="1234" height="400" key="GridCell.Tab.0.center" timestamp="1599098271776">
+    <state width="1234" height="518" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156767" />
+    <state width="1234" height="518" key="GridCell.Tab.0.center" timestamp="1599099156767">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="400" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599098271776" />
-    <state width="1234" height="400" key="GridCell.Tab.0.left" timestamp="1599098271776">
+    <state width="1234" height="518" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156767" />
+    <state width="1234" height="518" key="GridCell.Tab.0.left" timestamp="1599099156767">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="400" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599098271776" />
-    <state width="1234" height="400" key="GridCell.Tab.0.right" timestamp="1599098271776">
+    <state width="1234" height="518" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156767" />
+    <state width="1234" height="518" key="GridCell.Tab.0.right" timestamp="1599099156767">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599098271776" />
+    <state width="1234" height="518" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156767" />
+    <state width="1234" height="518" key="GridCell.Tab.1.bottom" timestamp="1599099156768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156768" />
+    <state width="1234" height="518" key="GridCell.Tab.1.center" timestamp="1599099156768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156768" />
+    <state width="1234" height="518" key="GridCell.Tab.1.left" timestamp="1599099156768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156768" />
+    <state width="1234" height="518" key="GridCell.Tab.1.right" timestamp="1599099156768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156768" />
+    <state width="1234" height="518" key="GridCell.Tab.2.bottom" timestamp="1599099156768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.2.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156768" />
+    <state width="1234" height="518" key="GridCell.Tab.2.center" timestamp="1599099156768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.2.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156768" />
+    <state width="1234" height="518" key="GridCell.Tab.2.left" timestamp="1599099156768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.2.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156768" />
+    <state width="1234" height="518" key="GridCell.Tab.2.right" timestamp="1599099156768">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.2.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156768" />
+    <state width="1234" height="518" key="GridCell.Tab.3.bottom" timestamp="1599099156769">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.3.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156769" />
+    <state width="1234" height="518" key="GridCell.Tab.3.center" timestamp="1599099156769">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.3.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156769" />
+    <state width="1234" height="518" key="GridCell.Tab.3.left" timestamp="1599099156769">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.3.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156769" />
+    <state width="1234" height="518" key="GridCell.Tab.3.right" timestamp="1599099156769">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.3.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599099156769" />
   </component>
 </project>
