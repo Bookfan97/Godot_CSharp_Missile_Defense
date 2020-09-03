@@ -5,7 +5,7 @@
 [ext_resource path="res://scripts/bullet.cs" type="Script" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 64.8357, 20.3242 )
+extents = Vector2( 30.0386, 9.38071 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
@@ -27,5 +27,6 @@ script = ExtResource( 3 )
 shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 2 )
 animation = "player"
