@@ -1,6 +1,0 @@
-E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\bin\Debug\C# Missile Defense.dll
-E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\bin\Debug\C# Missile Defense.pdb
-E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\obj\Debug\C# Missile Defense.csprojAssemblyReference.cache
-E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\obj\Debug\C# Missile Defense.csproj.CoreCompileInputs.cache
-E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\obj\Debug\C# Missile Defense.dll
-E:\Github\Godot_CSharp_Missle_Defense\.mono\temp\obj\Debug\C# Missile Defense.pdb

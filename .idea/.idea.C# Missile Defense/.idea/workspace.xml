@@ -20,25 +20,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b3c7a53-0c78-43a2-9519-21798bc7dde5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor_player" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor_player" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C# Missile Defense.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/C# Missile Defense.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Explosion.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bullet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bullet.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cannon.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cannonBarrel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C# Missile Defense/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/bulletEnemy.png-d3ebd4ddebc6f5ee25d4c1c744c13dd0.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/bulletEnemy.png-d3ebd4ddebc6f5ee25d4c1c744c13dd0.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/bulletPlayer.png-98073e64f8b41968a60401e20b1ae04e.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/bulletPlayer.png-98073e64f8b41968a60401e20b1ae04e.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/cannon.png-9d2b3e012890521845b77f0f6cf9b14e.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/cannon.png-9d2b3e012890521845b77f0f6cf9b14e.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/cannonBarrel.png-5e9d2fba4aed76af2164b7a977e4a03e.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/cannonBarrel.png-5e9d2fba4aed76af2164b7a977e4a03e.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy0.png-246fabee112abfbd53f85a8be11384d0.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy0.png-246fabee112abfbd53f85a8be11384d0.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy1.png-64b83c6392d71e35750fb22e437574a5.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy1.png-64b83c6392d71e35750fb22e437574a5.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy2.png-bcd2887ab8031267cfa7c3be023e87f6.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy2.png-bcd2887ab8031267cfa7c3be023e87f6.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy3.png-431f179fc5df8fe6e874bb34c38f762b.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy3.png-431f179fc5df8fe6e874bb34c38f762b.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy4.png-e1eb7372ead20013b4096c92a1317aab.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy4.png-e1eb7372ead20013b4096c92a1317aab.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy5.png-d8aa4e47c02ec5140a3e95eb48f8fd3b.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionEnemy5.png-d8aa4e47c02ec5140a3e95eb48f8fd3b.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer0.png-7bd9a44ff2d3ee7556ef664973d7298d.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer0.png-7bd9a44ff2d3ee7556ef664973d7298d.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer1.png-0da0e188c3bc34042e9e16ce0bf428b9.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer1.png-0da0e188c3bc34042e9e16ce0bf428b9.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer2.png-6f51f6be086106ecaf3a1cfd4365a26c.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer2.png-6f51f6be086106ecaf3a1cfd4365a26c.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer3.png-713a078ceb70c75bfae7c4b6d397c8f9.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer3.png-713a078ceb70c75bfae7c4b6d397c8f9.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer4.png-caa1d86cc5018f2f88a8a4ad0b494510.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer4.png-caa1d86cc5018f2f88a8a4ad0b494510.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer5.png-38d36f2c519f83f29d309498b9dbfaae.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/explosionPlayer5.png-38d36f2c519f83f29d309498b9dbfaae.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/icon.png-487276ed1e3a0c39cad0279d744ee560.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/tileMapGround.png-5dd55f97b1cf18728bb08b3e51de0771.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/tileMapGround.png-5dd55f97b1cf18728bb08b3e51de0771.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/tileMapGround.png-c973659c8b8c26b8775859b15c4d03c7.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/tileMapGround.png-c973659c8b8c26b8775859b15c4d03c7.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/tileMapStars.png-29a53d2b0325e89cacaaa4294e40ed18.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/tileMapStars.png-29a53d2b0325e89cacaaa4294e40ed18.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/tileMapStars.png-35b3e03ff8d8cb2d1849f38c2133c6dd.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/tileMapStars.png-35b3e03ff8d8cb2d1849f38c2133c6dd.stex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Debug/GodotSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Debug/GodotSharp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Debug/GodotSharp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Debug/GodotSharpEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Debug/GodotSharpEditor.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Debug/GodotSharpEditor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Debug/api_hash_cache.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Release/GodotSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Release/GodotSharp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Release/GodotSharp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Release/GodotSharpEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Release/GodotSharpEditor.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Release/GodotSharpEditor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/assemblies/Release/api_hash_cache.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor_player" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Debug/C# Missile Defense.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/C# Missile Defense.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/C# Missile Defense.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/C# Missile Defense.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/C# Missile Defense.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bulletEnemy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bulletEnemy.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bulletPlayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bulletPlayer.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cannon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cannon.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cannonBarrel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cannonBarrel.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy0.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy1.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy2.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy3.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy4.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionEnemy5.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer0.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer1.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer2.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer3.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer4.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/explosionPlayer5.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tileMapGround.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tileMapGround.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tileMapStars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tileMapStars.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C# Missile Defense.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C# Missile Defense.csproj.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C# Missile Defense.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Explosion.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Game.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/bullet.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/cannon.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/bullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/cannonBarrel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/scenes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default_env.tres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +162,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Scripts/scenes.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -58,6 +169,8 @@
         <option value="$PROJECT_DIR$/bullet.cs" />
         <option value="$PROJECT_DIR$/cannonBarrel.cs" />
         <option value="$PROJECT_DIR$/Scripts/scenes.cs" />
+        <option value="$PROJECT_DIR$/Scripts/bulletBrain.cs" />
+        <option value="$PROJECT_DIR$/Scripts/cannonBarrel.cs" />
       </list>
     </option>
   </component>
@@ -67,6 +180,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995845" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008313" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -117,6 +232,8 @@
       <workItem from="1598759233445" duration="79000" />
       <workItem from="1598814843889" duration="1209000" />
       <workItem from="1598819796443" duration="1446000" />
+      <workItem from="1598833481369" duration="1341000" />
+      <workItem from="1599092140944" duration="1117000" />
     </task>
     <servers />
   </component>
@@ -141,21 +258,69 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1598821114665">
+    <state width="1234" height="518" key="GridCell.Tab.0.bottom" timestamp="1599093111684">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598821114665" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1598821114665">
+    <state width="1234" height="518" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111684" />
+    <state width="1234" height="518" key="GridCell.Tab.0.center" timestamp="1599093111684">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598821114665" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1598821114665">
+    <state width="1234" height="518" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111684" />
+    <state width="1234" height="518" key="GridCell.Tab.0.left" timestamp="1599093111684">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598821114665" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1598821114665">
+    <state width="1234" height="518" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111684" />
+    <state width="1234" height="518" key="GridCell.Tab.0.right" timestamp="1599093111684">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598821114665" />
+    <state width="1234" height="518" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111684" />
+    <state width="1234" height="518" key="GridCell.Tab.1.bottom" timestamp="1599093114067">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093114067" />
+    <state width="1234" height="518" key="GridCell.Tab.1.center" timestamp="1599093114067">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093114067" />
+    <state width="1234" height="518" key="GridCell.Tab.1.left" timestamp="1599093114067">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093114067" />
+    <state width="1234" height="518" key="GridCell.Tab.1.right" timestamp="1599093114067">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093114067" />
+    <state width="1234" height="518" key="GridCell.Tab.2.bottom" timestamp="1599093111387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.2.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111387" />
+    <state width="1234" height="518" key="GridCell.Tab.2.center" timestamp="1599093111387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.2.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111387" />
+    <state width="1234" height="518" key="GridCell.Tab.2.left" timestamp="1599093111386">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.2.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111386" />
+    <state width="1234" height="518" key="GridCell.Tab.2.right" timestamp="1599093111387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.2.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111387" />
+    <state width="1234" height="518" key="GridCell.Tab.3.bottom" timestamp="1599093111387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.3.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111387" />
+    <state width="1234" height="518" key="GridCell.Tab.3.center" timestamp="1599093111387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.3.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111387" />
+    <state width="1234" height="518" key="GridCell.Tab.3.left" timestamp="1599093111387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.3.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111387" />
+    <state width="1234" height="518" key="GridCell.Tab.3.right" timestamp="1599093111387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="518" key="GridCell.Tab.3.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599093111387" />
   </component>
 </project>

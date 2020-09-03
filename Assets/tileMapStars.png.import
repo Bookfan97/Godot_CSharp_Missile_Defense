@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tileMapStars.png-35b3e03ff8d8cb2d1849f38c2133c6dd.stex"
+path="res://.import/tileMapStars.png-ebec32f1c52a452b164f97d3cf86af86.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/tileMapStars.png"
-dest_files=[ "res://.import/tileMapStars.png-35b3e03ff8d8cb2d1849f38c2133c6dd.stex" ]
+source_file="res://assets/tileMapStars.png"
+dest_files=[ "res://.import/tileMapStars.png-ebec32f1c52a452b164f97d3cf86af86.stex" ]
 
 [params]
 
