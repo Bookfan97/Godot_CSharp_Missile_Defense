@@ -5,7 +5,7 @@ public class player : Node
 {
     private bulletBrain _bulletBrain;
     public bool canShoot = true, gameOver = false;
-    public int health = 3, score = 0;
+    [Export] public int health = 3, score = 0;
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {

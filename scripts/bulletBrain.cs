@@ -6,20 +6,20 @@ public class bulletBrain : Node
     scenes scenes = new scenes();
     bullet _bullet = new bullet();
     private Timer enemySpawner;
-    public float spawnRateDecrease = 0.2f,
+   [Export] public float spawnRateDecrease = 0.2f,
         spawnRate = 0,
         maxSpawnRate = 4.0f,
         minSpawnRate = 0.5f;
-    // public int bulletSpeedIncrease = 20,
-    //     maxBulletSpeed = 600, 
-    //     minBulletSpeed = 300;
+    [Export] public int playerBulletSpeed = 300;
+    [Export] public int enemyBulletSpeed = 300;
+    [Export] public int bulletSpeedIncrease = 15,
+         maxBulletSpeed = 600;
     //
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
         enemySpawner = (Timer)GetNode("enemySpawner");
         spawnRate = maxSpawnRate;
-        // minBulletSpeed = _bullet.speed;
     }
 
     public void _on_enemySpawner_timeout()
@@ -30,10 +30,9 @@ public class bulletBrain : Node
     public void increaseDifficulty()
     {
         //Increase Bullet Speed
-        // var bullet = (bullet)scenes._sceneBullet.Instance();
-        // var newBulletSpeed = bullet.GetSpeed() + bulletSpeedIncrease;
-        // bullet.SetSpeed(Math.Min(newBulletSpeed, maxBulletSpeed));
-        // GD.Print("new: "+ newBulletSpeed+ " Speed: "+ bullet.GetSpeed());
+         var newBulletSpeed = enemyBulletSpeed + bulletSpeedIncrease;
+         enemyBulletSpeed = Math.Min(newBulletSpeed, maxBulletSpeed);
+         
         //Increase Spawn Rate
         var newSpawnRate = spawnRate - spawnRateDecrease;
         newSpawnRate = Math.Max(newSpawnRate, minSpawnRate);
@@ -59,6 +58,16 @@ public class bulletBrain : Node
         //Set the bullet animation
         var bulletSprite = (AnimatedSprite)bullet.GetNode("AnimatedSprite");
         bulletSprite.Play(animationName);
+
+        if (animationName == "player")
+        {
+            bullet.speed = playerBulletSpeed;
+        }
+        else if (animationName == "enemy")
+        {
+            bullet.speed = enemyBulletSpeed;
+            GD.Print(enemyBulletSpeed);
+        }
     }
     
     public void spawnExplosion(Vector2 spawnPosition, string animationName)
