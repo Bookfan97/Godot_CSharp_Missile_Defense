@@ -18,6 +18,7 @@
         <e p="bulletStopper.cs" t="Include" />
         <e p="cannonBarrel.cs" t="Include" />
         <e p="explosion.cs" t="Include" />
+        <e p="player.cs" t="Include" />
         <e p="scenes.cs" t="Include" />
       </e>
     </e>
