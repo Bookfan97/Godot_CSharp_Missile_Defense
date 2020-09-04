@@ -16,17 +16,7 @@ public class bullet : Area2D
   public override void _Process(float _delta)
   {
       //GD.Print("Actual Speed: "+ GetSpeed());
-      velocity = Vector2.Right.Rotated(Rotation) * GetSpeed() * _delta;
+      velocity = Vector2.Right.Rotated(Rotation) * speed * _delta;
        Translate(velocity);
-  }
-  
-  public int GetSpeed()
-  {
-      return speed;
-  }
-
-  public void SetSpeed(int value)
-  {
-      speed = value;
   }
 }
