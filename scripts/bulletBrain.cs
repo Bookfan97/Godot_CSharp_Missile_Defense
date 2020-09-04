@@ -4,16 +4,27 @@ using System;
 public class bulletBrain : Node
 {
     scenes scenes = new scenes();
+    private Timer enemySpawner;
+    public float spawnRateDecrease = 0.2f, spawnRate = 0, maxSpawnRate = 4.0f, minSpawnRate = 0.5f;
     
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        
+        enemySpawner = (Timer)GetNode("enemySpawner");
+        spawnRate = maxSpawnRate;
     }
 
     public void _on_enemySpawner_timeout()
     {
         spawnEnemy();
+    }
+
+    public void increaseDifficulty()
+    {
+        var newSpawnRate = spawnRate - spawnRateDecrease;
+        newSpawnRate = Math.Max(newSpawnRate, minSpawnRate);
+        enemySpawner.WaitTime = newSpawnRate;
+        enemySpawner.Start();
     }
 
     public void spawnEnemy()

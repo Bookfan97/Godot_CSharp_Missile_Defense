@@ -3,7 +3,7 @@ using System;
 
 public class bullet : Area2D
 {
-    public int speed = 300;
+    public int speed = 500;
     Vector2 velocity = new Vector2(0,0);
 
     // Called when the node enters the scene tree for the first time.

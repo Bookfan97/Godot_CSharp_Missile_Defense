@@ -52,6 +52,7 @@ public class player : Node
     {
         score = Math.Max(scoreAmount + score, 0);
         updateUI();
+        _bulletBrain.increaseDifficulty();
     }
     
     public void updateUI()
