@@ -9,6 +9,7 @@ public class player : Node
     public override void _Ready()
     {
         _bulletBrain = (bulletBrain)GetNode("/root/game/bullets/bulletBrain");
+        updateUI();
     }
 
     public void _on_playerHitZone_area_entered(Area2D bullet)
@@ -19,6 +20,12 @@ public class player : Node
             _bulletBrain.spawnExplosion(bullet.GlobalPosition, "enemy");
             bullet.QueueFree();
         }
+    }
+
+    public void updateUI()
+    {
+        var healthAndScore = (Label) GetNode("/root/game/HUD/healthAndScore");
+        healthAndScore.Text = "WHOOPS YOU FORGOT SOMETHING";
     }
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
