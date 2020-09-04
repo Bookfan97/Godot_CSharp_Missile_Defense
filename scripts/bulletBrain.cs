@@ -4,14 +4,22 @@ using System;
 public class bulletBrain : Node
 {
     scenes scenes = new scenes();
+    bullet _bullet = new bullet();
     private Timer enemySpawner;
-    public float spawnRateDecrease = 0.2f, spawnRate = 0, maxSpawnRate = 4.0f, minSpawnRate = 0.5f;
-    
+    public float spawnRateDecrease = 0.2f,
+        spawnRate = 0,
+        maxSpawnRate = 4.0f,
+        minSpawnRate = 0.5f;
+    // public int bulletSpeedIncrease = 20,
+    //     maxBulletSpeed = 600, 
+    //     minBulletSpeed = 300;
+    //
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
         enemySpawner = (Timer)GetNode("enemySpawner");
         spawnRate = maxSpawnRate;
+        // minBulletSpeed = _bullet.speed;
     }
 
     public void _on_enemySpawner_timeout()
@@ -21,6 +29,12 @@ public class bulletBrain : Node
 
     public void increaseDifficulty()
     {
+        //Increase Bullet Speed
+        // var bullet = (bullet)scenes._sceneBullet.Instance();
+        // var newBulletSpeed = bullet.GetSpeed() + bulletSpeedIncrease;
+        // bullet.SetSpeed(Math.Min(newBulletSpeed, maxBulletSpeed));
+        // GD.Print("new: "+ newBulletSpeed+ " Speed: "+ bullet.GetSpeed());
+        //Increase Spawn Rate
         var newSpawnRate = spawnRate - spawnRateDecrease;
         newSpawnRate = Math.Max(newSpawnRate, minSpawnRate);
         enemySpawner.WaitTime = newSpawnRate;

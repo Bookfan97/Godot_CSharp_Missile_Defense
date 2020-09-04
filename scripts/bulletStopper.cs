@@ -18,7 +18,8 @@ public class bulletStopper : Area2D
         var bulletType = (AnimatedSprite) bullet.GetNodeOrNull("AnimatedSprite");
         if ((bulletType != null) && (bulletType.Animation == "player") && (bullet is bullet))
         {
-            _bulletBrain.spawnExplosion(GlobalPosition, "player");
+            // _bulletBrain.spawnExplosion(GlobalPosition, "player");
+            _bulletBrain.CallDeferred("spawnExplosion", GlobalPosition, "player");
             bullet.QueueFree();
             QueueFree();
             _player.canShoot = true;
