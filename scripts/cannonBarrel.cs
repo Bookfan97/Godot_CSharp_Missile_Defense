@@ -3,19 +3,21 @@ using System;
 
 public class cannonBarrel : Sprite
 {
-    bulletBrain bulletBrain;
+    bulletBrain _bulletBrain;
+    private player _player;
     scenes _scenes = new scenes();
     
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        bulletBrain = (bulletBrain)GetNode("/root/game/bullets/bulletBrain");
+        _bulletBrain = (bulletBrain)GetNode("/root/game/bullets/bulletBrain");
+        _player = (player)GetNode("/root/game/player");
     }
 
     public override void _Input(InputEvent @event)
     {
         //base._Input(@event);
-        if (@event.IsActionPressed("click"))
+        if (@event.IsActionPressed("click") && _player.canShoot)
         {
             //GD.Print("Left mouse clicked");
             shootatMouse();
@@ -24,7 +26,8 @@ public class cannonBarrel : Sprite
 
     public void shootatMouse()
     {
-        bulletBrain.spawnBullet(GlobalPosition, GetGlobalMousePosition(), "player");
+        _bulletBrain.spawnBullet(GlobalPosition, GetGlobalMousePosition(), "player");
+        _player.canShoot = false;
         var bulletStopper = (Area2D) _scenes._sceneBulletStopper.Instance();
         GetNode("/root/game/bullets").AddChild(bulletStopper);
         bulletStopper.GlobalPosition = GetGlobalMousePosition();
