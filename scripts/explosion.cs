@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class bulletStopper : Area2D
+public class explosion : Area2D
 {
     private bulletBrain _bulletBrain;
 
@@ -11,17 +11,22 @@ public class bulletStopper : Area2D
         _bulletBrain = (bulletBrain)GetNode("/root/game/bullets/bulletBrain");
     }
 
-    public void _on_bulletStopper_area_entered(Area2D bullet)
+    public void _on_AnimatedSprite_animation_finished()
     {
-        var bulletType = (AnimatedSprite) bullet.GetNodeOrNull("AnimatedSprite");
-        if ((bulletType != null) && (bulletType.Animation == "player") && (bullet is bullet))
-        {
-            _bulletBrain.spawnExplosion(GlobalPosition, "player");
-            bullet.QueueFree();
-            QueueFree();
-        }
+        QueueFree();
     }
 
+    public void _on_explosion_area_entered(Area2D bullet)
+    {
+        var bulletType = (AnimatedSprite) bullet.GetNodeOrNull("AnimatedSprite");
+        var explosionType = (AnimatedSprite) GetNode("AnimatedSprite");
+        if ((bulletType != null) && (bulletType.Animation == "enemy") && (bullet is bullet))
+        {
+            _bulletBrain.spawnExplosion(bullet.GlobalPosition, "enemy");
+            bullet.QueueFree();
+        }
+    }
+    
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
 //  public override void _Process(float delta)
 //  {
