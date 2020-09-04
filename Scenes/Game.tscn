@@ -78,7 +78,7 @@ wait_time = 3.0
 autostart = true
 
 [node name="cloudSpawner" type="Timer" parent="bullets/bulletBrain"]
-wait_time = 4.0
+wait_time = 2.0
 autostart = true
 
 [node name="foreground" type="Node" parent="."]
