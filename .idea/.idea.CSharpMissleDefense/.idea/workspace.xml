@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20ecb51-83c2-4e62-bfa7-82f49891d4c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpMissleDefense/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpMissleDefense/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpMissleDefense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpMissleDefense/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/ide_messaging_meta.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" afterDir="false" />
@@ -31,8 +32,10 @@
       <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Debug/CSharpMissleDefense.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpMissleDefense.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpMissleDefense.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Game.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/bulletBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bulletBrain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cannonBarrel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cannonBarrel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scenes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/scenes.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/scripts/bulletBrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/cannonBarrel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/scenes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scripts/bulletStopper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +58,7 @@
         <option value="$PROJECT_DIR$/scripts/scenes.cs" />
         <option value="$PROJECT_DIR$/scripts/cannonBarrel.cs" />
         <option value="$PROJECT_DIR$/scripts/bulletBrain.cs" />
+        <option value="$PROJECT_DIR$/scripts/bulletStopper.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599097193832</updated>
       <workItem from="1599097196491" duration="3008000" />
-      <workItem from="1599174944445" duration="359000" />
+      <workItem from="1599174944445" duration="2514000" />
     </task>
     <servers />
   </component>
